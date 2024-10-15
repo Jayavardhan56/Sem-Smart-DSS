@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE Subjects and Quizzes</title>
+</head>
+<body>
+    <div class="container">
+        <label for="term">Select MID:</label>
+        <select id="term" name="term" required>
+            <option value="">-- Select --</option>
+            <option value="mid1">MID-1</option>
+            <option value="mid2">MID-2</option>
+        </select>
+
+        <div id="subjects-section">
+            <h2>Select a Subject</h2>
+            <ul class="subjects-list">
+                <li data-subject="Java Programming">Java Programming</li>
+                <li data-subject="Artificial Intelligence">Artificial Intelligence</li>
+                <li data-subject="Object Oriented Analysis and Design">Object Oriented Analysis and Design</li>
+                <li data-subject="Computer Networks">Computer Networks</li>
+                <li data-subject="Theory of Computation">Theory of Computation</li>
+            </ul>
+        </div>
+
+        <button class="back-btn" id="back-to-subjects" style="display: none;">Back to Subjects</button>
+
+        <button class="back-dash" id="back-to-dash" style="margin-top: 10px;">Return to Dashboard</button>
+    </div>
+
+    <script src="js/cse.js"></script>
+</body>
+</html>

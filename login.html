@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEM SMART/ LOGIN</title>
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo-container">
+            <img src="images/logo3.png.png" alt="Logo" class="logo">
+        </div>
+        <h2>SEM SMART</h2>
+        <form action="dashboard.html" method="get">
+            
+            <label for="branch">Select Branch:</label>
+            <select id="branch" name="branch" required>
+                <option value="">-- Select Branch --</option>
+                <option value="cse">CSE</option>
+                <option value="csm">CSM</option>
+                <option value="csd">CSD</option>
+                <option value="ece">ECE</option>
+                <option value="eee">EEE</option>
+                <option value="mech">MECH</option>
+                <option value="civil">Civil</option>
+            </select>
+
+            <label for="rollno">Roll No:</label>
+            <input type="text" id="rollno" name="rollno" placeholder="Enter Roll No" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter Password" required>
+
+            <button type="submit" class="login-btn">Login</button>
+        </form>
+
+        <div class="extra-links">
+            <a href="#">Forgot Password?</a>
+            <a href="#">Sign Up</a>
+        </div>
+    </div>
+</body>
+<script src="/js/login.js"></script>
+</html>

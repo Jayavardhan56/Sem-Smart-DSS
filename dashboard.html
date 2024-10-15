@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-title">Sem Smart</h1>
+        <nav class="header-nav">
+            <a href="login.html" class="logout-link">Logout</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="intro-box">
+            <h2>Test Your Knowledge!</h2>
+            <div class="intro-content">
+                <p>
+                    Welcome to the Quiz App, your go-to platform for testing and enhancing your knowledge across various subjects. 
+                    With a wide range of quizzes, you can challenge yourself and track your progress over time. 
+                    Whether you’re preparing for exams or just want to learn something new, our quizzes make studying engaging and efficient.
+                </p>
+                <img src="/images/dash1.jpg" alt="Quiz Illustration" class="quiz-image">
+            </div>
+        </div>
+
+        <div class="feature-boxes">
+            <div class="feature-box" onclick="navigateToSubjects('cse.html')">
+                <a href="cse.html"><h3>CSE</h3></a>
+                <img src="images/cse.jpg" alt="CSE" class="branch-image">
+            </div>
+            <div class="feature-box" onclick="navigateToSubjects('csm.html')">
+                <h3>CSM</h3>
+                <img src="images/ai.avif" alt="CSM" class="branch-image">
+            </div>
+            <div class="feature-box" onclick="navigateToSubjects('csd.html')">
+                <h3>CSD</h3>
+                <img src="images/datascience.png" alt="CSD" class="branch-image">
+            </div>
+            <div class="feature-box" onclick="navigateToSubjects('ece.html')">
+                <h3>ECE</h3>
+                <img src="images/ece.jpeg" alt="ECE" class="branch-image">
+            </div>
+            <div class="feature-box" onclick="navigateToSubjects('eee.html')">
+                <h3>EEE</h3>
+                <img src="images/eee.jpg" alt="EEE" class="branch-image">
+            </div>
+            <div class="feature-box" onclick="navigateToSubjects('mech.html')">
+                <h3>MECH</h3>
+                <img src="images/mech.jpeg" alt="MECH" class="branch-image">
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 SEM SMART. All rights reserved.</p>
+        <p>Created BY K.JAYAVARDHAN</p>
+    </footer>
+
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
