@@ -1,4 +1,7 @@
-Project Link: 
+Project Link: https://jayavardhan56.github.io/DSS-SI-1/index.html
+For Branch CSE: 
+Roll No Range:22NU1A0501-22NU1A0599
+Password: 123
 
 A dynamic and interactive quiz application developed as part of my summer internship, designed to help students test their knowledge based on their branch, semester subjects, and midterms. Built using HTML, CSS, and JavaScript, with integration to a PHP-MySQL backend for storing and fetching quiz questions.
 
