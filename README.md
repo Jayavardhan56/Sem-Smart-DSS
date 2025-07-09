@@ -1,6 +1,6 @@
 🎓 SEM SMART – Dynamic Quiz Web Application
 
-🔗 Live Project: 
+🔗 Live Project: https://jayavardhan56.github.io/DSS-SI-1/
 
 Credentials:
 
