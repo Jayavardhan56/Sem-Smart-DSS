@@ -46,4 +46,6 @@ PHP and MySQL (for question storage, fetching, and validation)
 
 🚧 Note: This application is currently under development — more features and improvements are being added regularly. Stay tuned for updates!
 
+Feel Free to Fork and pull Requests are Welcome!
+
 📩 For feedback or collaboration: jayavardhankonathala@gmail.com
