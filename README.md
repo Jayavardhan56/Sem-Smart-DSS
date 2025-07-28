@@ -5,7 +5,9 @@
 Credentials:
 
 Branch: CSE
+
 Roll Number Range: 22NU1A0501 – 22NU1A0599
+
 Password: 123
 
 💡 Project Overview
@@ -27,10 +29,12 @@ The platform ensures a responsive and intuitive user interface that enhances the
 🛠️ Technologies Used
 
 Frontend:
+
 HTML, CSS, JavaScript
 
 Backend:
-PHP and MySQL (for question storage, fetching, and validation)
+
+Future Scope:  PHP and MySQL (for question storage, fetching, and validation)
 
 ✅ Key Features
 
