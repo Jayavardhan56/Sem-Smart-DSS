@@ -52,4 +52,6 @@ Future Scope:  PHP and MySQL (for question storage, fetching, and validation)
 
 Feel Free to Fork and pull Requests are Welcome!
 
+A beginner friendly Project
+
 📩 For feedback or collaboration: jayavardhankonathala@gmail.com
