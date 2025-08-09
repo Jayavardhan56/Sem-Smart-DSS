@@ -10,7 +10,7 @@ Roll Number Range: 22NU1A0501 – 22NU1A0599
 
 Password: 123
 
-💡 Project Overview
+💡 Project Overview:
 
 SEM SMART is a dynamic and interactive web-based quiz application developed as part of my summer internship. It is designed to help students evaluate their understanding of semester subjects, midterms, and branch-specific content in a gamified and user-friendly way.
 
